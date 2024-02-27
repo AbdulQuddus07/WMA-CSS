@@ -1,0 +1,59 @@
+/* h1{
+     font-size: 7vw; /* ye height ko control karta h screen ke hisab se */
+/* font-size: 7vh; /* ye width ko control karta h screen ke hisab se  */
+/* font-size: 7vmax; /* ye ek had ke bad height me depend hojayega */
+/* font-size: 7vmin; /* ye ek had ke bad small hona shoro hojayega  */
+/* color: blue;
+     font-size: 5rem; */
+/* } */
+
+/* @media(max-width:600px){
+   h1{
+    display: none;
+   }
+} */
+*{
+   font-family: sans-serif;
+}
+h3{
+   color: #1E0E62;
+   font-size: 24px;
+   text-align: center;
+}
+.list{
+   display: flex;
+   gap: 40px;
+   justify-content: center;
+   list-style: none;
+   color: #15143966;
+   font-size: 16px;
+}
+.main{
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+   padding-top: 30px;
+}
+h1{
+   color: #1E0E62;
+   font-size: 44px;
+   position: relative;
+   top: 13px;
+}
+p{
+   line-height:25px ;
+   font-size: 16px;
+   color: #15143966;
+}
+.left{
+   width: 30%;
+}
+button{
+   margin-top: 40px;
+   border-radius: 100px;
+   height: 40px;
+   width: 200px;
+   background-color:#482BE7;
+   border: none;
+   color: #ffffff;
+}
